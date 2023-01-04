@@ -21,10 +21,8 @@ connection.connect(function(err) {
   console.log('Connected to database.');
 
 connection.end();
-});
+});})
 
-
-  
   app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
   })
